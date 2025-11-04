@@ -8,7 +8,7 @@ const ProfileCard: React.FC = () => {
     const socialLinks = [
         {
             name: 'Email',
-            href: 'mailto:thanachai.th2008@',
+            href: 'mailto:thanachai.th2008@example.com',
             icon: (
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
@@ -55,6 +55,7 @@ const ProfileCard: React.FC = () => {
                                 alt="Profile"
                                 fill
                                 className="rounded-full object-cover"
+                                sizes="(max-width: 768px) 6rem, 9rem"
                             />
                             <div className="absolute inset-0 bg-gradient-to-br from-blue-400 to-purple-600 rounded-full animate-ping opacity-20"></div>
                         </div>
